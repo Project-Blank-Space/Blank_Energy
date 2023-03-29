@@ -10,7 +10,7 @@ SimpleDHT11 dht11;
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(12,6,13,5,4,3);
 
-const unsigned long INTERVAL = 30000; // 5 minutes in milliseconds
+const unsigned long INTERVAL = 5000; // 5 minutes in milliseconds
 bool condition = false;
 unsigned long start = millis();
 
